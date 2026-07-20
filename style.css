@@ -1,0 +1,118 @@
+.boxbox{
+    background-color:  black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    height: 650px
+}
+
+
+.item{
+     background-color: teal;
+     color: black;
+     font-size: 30px;
+     padding: 10px;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.item.Maxverstappen{
+    /* Static red/orange stripes — no movement */
+    background: repeating-linear-gradient(45deg, red 0 12px, orange 12px 24px);
+    color: white;
+}
+
+/* Make the Charles Leclerc box red */
+.item.CharlesLeclerc{
+    background-color: red;
+    color: white;
+}
+
+
+.Maxverstappen{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.CharlesLeclerc{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.KimiAntonelli{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item.KimiAntonelli{
+    background-color: lightgreen;
+    color: white;
+}
+
+.LandoNorris{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.item.LandoNorris{
+    background-color: orange;
+    color: white;
+}
+
+
+.PierreGasly{
+    grid-row-start:6 ;
+    grid-row-end:7 ;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item.PierreGasly{
+    background-color: pink;
+    color: white;
+}
+
+
+.GeorgeRussell{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item.GeorgeRussell{
+    background-color: lightgreen;
+    color: white;
+}
+
+
+.FrancoColapinto{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item.FrancoColapinto{
+    background-color: pink;
+    color: white;
+}
+
+
+.item.LewisHamilton{
+    background-color: red;
+    color: white;
+}
+
+.item.LiamLawson{
+    background-color: darkblue;
+    color: white;
+}
+
+.item.IsackHadjar{
+    background-color: rgb(218, 128, 43);
+    color: white;
+}
