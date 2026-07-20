@@ -116,3 +116,25 @@
     background-color: rgb(218, 128, 43);
     color: white;
 }
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 16px;
+    background: #111;
+    border-bottom: 3px solid orange;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
