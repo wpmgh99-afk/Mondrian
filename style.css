@@ -7,6 +7,7 @@
 }
 
 
+
 .item{
      background-color: teal;
      color: black;
@@ -17,12 +18,10 @@
 }
 
 .item.Maxverstappen{
-    /* Static red/orange stripes — no movement */
     background: repeating-linear-gradient(45deg, red 0 12px, orange 12px 24px);
     color: white;
 }
 
-/* Make the Charles Leclerc box red */
 .item.CharlesLeclerc{
     background-color: red;
     color: white;
